@@ -1,0 +1,220 @@
+# Document Summarizer AI - Professional Portfolio .gitignore
+
+# Environment variables (NEVER commit real API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+pnpm-debug.log*
+
+# Package manager lock files (keep package.json, ignore locks for portfolio)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-lock.yaml
+
+# Frontend build outputs
+build/
+dist/
+frontend/build/
+frontend/dist/
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts.map
+*.js.map
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+test-results/
+junit.xml
+
+# Cache directories
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+lib-cov/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Deployment platforms
+.netlify/
+.vercel/
+.railway/
+.render/
+.heroku/
+
+# Database files (for local development)
+*.db
+*.sqlite
+*.sqlite3
+data/
+document_summarizer.db
+
+# Document uploads and processing
+uploads/
+backend/uploads/
+frontend/public/uploads/
+documents/
+processed_documents/
+
+# AI/ML model files and data
+*.model
+*.pkl
+*.joblib
+*.h5
+*.pb
+models/
+checkpoints/
+embeddings/
+vectors/
+
+# Celery and Redis
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+dump.rdb
+redis.conf
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Python package management
+.python-version
+Pipfile.lock
+poetry.lock
+__pypackages__/
+
+# Sensitive files that might contain API keys or secrets
+config/secrets.py
+config/secrets.js
+secrets.json
+credentials.json
+
+# AWS and cloud credentials
+.aws/
+aws-credentials.json
+
+# Vector database files
+pinecone/
+chroma/
+faiss/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Misc
+.sass-cache/
+connect.lock
+typings/
+.grunt/
+bower_components/
+jspm_packages/
+web_modules/
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Optional: Uncomment if you want to ignore specific config files
+# config/production.py
+# config/development.py
